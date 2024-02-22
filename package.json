@@ -1,9 +1,13 @@
 {
-  "name": "vandux",
+  "name": "vanrx",
   "version": "0.0.1",
   "description": "Redux light weight addon for vanjs",
   "main": "index.js",
   "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeddahAbdellah/vanrx"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "esbuild ./src/index.js --platform=browser --outdir=./dist"

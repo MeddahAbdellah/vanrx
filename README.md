@@ -1,6 +1,6 @@
-# Vandux
+# vanrx
 
-Vandux is an ultra-lightweight Redux addon for VanJS, designed to enhance your VanJS applications with a simple yet powerful state management solution.
+vanrx is an ultra-lightweight Redux addon for VanJS, designed to enhance your VanJS applications with a simple yet powerful state management solution.
 
 ## Features
 
@@ -10,21 +10,21 @@ Vandux is an ultra-lightweight Redux addon for VanJS, designed to enhance your V
 
 ## Installation
 
-To use Vandux in your project, simply include it alongside VanJS.
+To use vanrx in your project, simply include it alongside VanJS.
 
 ```bash
-npm install vandux
+npm install vanrx
 ```
 
 ## Usage
 
-Vandux is designed to be simple and easy to use. To get started, simply create a state, give a name, an initial state, and then you can create as many reducers as you want.
+vanrx is designed to be simple and easy to use. To get started, simply create a state, give a name, an initial state, and then you can create as many reducers as you want.
 
 ```js
 import van from "vanjs-core";
-import vandux from "vandux";
+import vanrx from "vanrx";
 
-const [createReducer, dispatch, createSelector] = vandux("Counter", {
+const [createReducer, dispatch, createSelector] = vanrx("Counter", {
   count: 0,
 });
 
@@ -50,4 +50,4 @@ van.add(document.body, Counter())
 
 ## License
 
-Vandux is open source software. It is free to use and modify under the terms of the MIT license.
+vanrx is open source software. It is free to use and modify under the terms of the MIT license.
