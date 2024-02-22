@@ -1,4 +1,4 @@
-# vanrx
+# Vanrx
 
 vanrx is an ultra-lightweight Redux addon for VanJS, designed to enhance your VanJS applications with a simple yet powerful state management solution.
 
