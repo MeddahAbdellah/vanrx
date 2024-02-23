@@ -1,7 +1,7 @@
 import van from "vanjs-core";
 const toXActionFn = (name) => (action) => `[${name}] ${action}`;
-export default function vanrx(name) {
-  const state = van.state({});
+export default function vanrx(name, initialState = {}) {
+  const state = van.state(initialState);
   const toXAction = toXActionFn(name);
   let actions = {};
 

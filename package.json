@@ -1,6 +1,6 @@
 {
   "name": "vanrx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redux light weight addon for vanjs",
   "main": "index.js",
   "module": "dist/index.js",
